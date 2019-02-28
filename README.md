@@ -7,6 +7,20 @@ Find the device reference on https://developer.gemalto.com/documentation/cinteri
 
 Feel free to ask the community members all questions about the Cinterion Connect Shield
 
+
+## Additional Sensors
+
+On board is the temperature sensor NXP PCT2075 accessible via I2C address 1110 101
+(0x75).
+
+On board is the ambient light sensor Vishay VEML6030 accessible via I2C address 0010 000
+(0x10).
+
+On board is 4-bit port extender PCA9536TK accessible via I2C address 1000 001 (0x41). 
+Three IO are connected to LED’s as output, while one IO is free for any usage on a test point.
+
+
+
 ## Start-up
 
 For default configuration just put the Cinterion Connect Shield directly into Arduino Header without any shifts.
