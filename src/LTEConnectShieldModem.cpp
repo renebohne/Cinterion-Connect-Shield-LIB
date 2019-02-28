@@ -29,6 +29,7 @@ https://github.com/David-Gemalto/Cinterion-Connect-Shield-LIB
 	delay(wait);\
 }
 
+/*
 LTEConnectShieldModem :: LTEConnectShieldModem()
 {
   _hSerialCon = &HwSerial;
@@ -36,6 +37,7 @@ LTEConnectShieldModem :: LTEConnectShieldModem()
   _rts = CON_SHIELD_RTS_PIN;
   _cts = CON_SHIELD_CTS_PIN;
 }
+*/
 
 LTEConnectShieldModem :: LTEConnectShieldModem(LTEConnectShieldHwSerial& serialCon, uint8_t onOffPin, uint8_t rts, uint8_t cts)
 {
